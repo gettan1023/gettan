@@ -7,13 +7,13 @@ services:
     ports:
       - '3010:3010'
     volumes:
-      - './frontend/app:/frontend'
-    command: /bin/sh -c "cd app && yarn start"
+      - './frontend:/frontend'
+    command: /bin/sh -c "yarn start"
     depends_on:
         - db
         - api
     env_file:
-      - ./frontend/app/.env
+      - ./frontend/.env
     tty: true
     stdin_open: true
 
