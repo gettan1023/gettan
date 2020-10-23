@@ -8,8 +8,8 @@ docker-compose
 ``` bash
 $ git clone git@github.com:H0R15H0/rails-react-app.git gettan
 $ cd gettan
-$ git clone git@github.com:H0R15H0/react-app.git frontend
-$ git clone git@github.com:H0R15H0/rails-api.git api
+$ git clone git@github.com:gettan1023/frontend.git frontend
+$ git clone git@github.com:gettan1023/api.git api
 $ echo "PORT=3010" > frontend/.env
 $ docker-compose up --build
 ```
