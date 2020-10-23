@@ -6,7 +6,7 @@ docker-compose
 
 # Usage
 ``` bash
-$ git clone git@github.com:H0R15H0/rails-react-app.git gettan
+$ git clone git@github.com:gettan1023/gettan.git gettan
 $ cd gettan
 $ git clone git@github.com:gettan1023/frontend.git frontend
 $ git clone git@github.com:gettan1023/api.git api
