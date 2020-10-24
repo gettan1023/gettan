@@ -7,7 +7,7 @@ services:
     ports:
       - '3010:3010'
     volumes:
-      - './frontend:/frontend'
+      - './frontend:/app'
     command: /bin/sh -c "yarn start"
     env_file:
       - ./frontend/.env
