@@ -31,7 +31,7 @@ services:
       - db
       # - redis
     volumes:
-      - './api:/api'
+      - './api:/myapp'
     ports:
       - '3000:3000'
 
